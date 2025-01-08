@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headerPara">
+          <h1>Welcome to the Odin project of roshambo game</h1>
+          <p>Let's start the game</p>
+        </div>
+        <div class="form">
+           <label for="roshamboField">Type Rock | Paper | Scissor</label>
+           <input id="roshamboField" class="roshamboField" type="text">
+           <input class="roshamboBtn" type="submit" value="Submit">
+        </div>
+        <div class="humanComputerchoiceHeaderImg">
+           <div class="humanChoiceHeaderImg" style="display: none">
+             <h2 class="humanChoiceHeader">Human : </h2>
+             <img class="humanChoiceImg" src="" >
+        </div>
+            <div class="computerChoiceHeaderImg" style="display: none">
+              <h2 class="computerChoiceHeader">Computer : </h2>
+              <img class="computerChoiceImg" src="" >
+        </div>
+        </div>
+        <div class="paras">
+           <p class="human">Human : 0</p>
+           <p class="computer">Computer : 0</p>
+           <p class="winner"></p>
+        </div>
+     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
